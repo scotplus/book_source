@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: Core Tutorials
+    chapters:
+    - file: installation_instructions
+    - file: theory
+    - file: setup_tutorial
+    - file: UGW_tutorial
+    - file: UCOOT_tutorial
+    - file: fused_tutorial
+    - file: AGW_tutorial
+  - caption: Exploration on Real World Datasets
+    chapters:
+    - file: pbmc_unbalanced
+    - file: citeseq_sample_supervision
